@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Your Name</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .cv-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid black;
+        }
+
+        .cv-name {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .cv-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .cv-contact {
+            font-size: 14px;
+        }
+
+        .cv-section {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid black;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .item-subheader {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .item-date {
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        ul {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        li {
+            margin-bottom: 3px;
+        }
+
+        .skills {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        @media print {
+            .print-button {
+                display: none;
+            }
+
+            body {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button" onclick="window.print()">PRINT / DOWNLOAD PDF</button>
+
+    <div class="cv-header">
+        <h1 class="cv-name">SULE Oluwaseyi</h1>
+        <p class="cv-title">Front-End Developer</p>
+        <div class="cv-contact">
+            <div class="cv-contact-item">
+                <span>📧</span>
+                <span>oluwaseyimariam36@gmail.com</span>
+            </div>
+            <div class="cv-contact-item">
+                <span>📱</span>
+                <span>+234 70 7880 4143</span>
+            </div>
+            <div class="cv-contact-item">
+                <span>💼</span>
+                <span>linkedin.com/in/oluwaseyi-sule-0a9574211</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="cv-section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="cv-summary">
+            Motivated and detail-oriented Front-End Developer with hands-on experience in HTML5, CSS3, JavaScript, 
+            and React. Proficient in building responsive, user-friendly web applications with clean code and modern 
+            design principles. Strong problem-solving skills with a commitment to continuous learning and staying 
+            current with industry trends. Seeking opportunities to contribute technical skills and creativity to 
+            dynamic development teams.
+        </p>
+    </div>
+
+    <div class="cv-section">
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <p class="skills">
+            <strong>Languages:</strong> HTML5, CSS3, JavaScript (ES6+)<br>
+            <strong>Frameworks/Libraries:</strong> React<br>
+            <strong>Tools:</strong> Git, GitHub, VS Code, Chrome DevTools<br>
+            <strong>Other:</strong> API Integration, Responsive Design, CSS Grid, Flexbox, DOM Manipulation
+        </p>
+    </div>
+
+    <div class="cv-section">
+        <h2 class="section-title">Projects</h2>
+        
+        <div class="project-item">
+            <div class="item-header">
+                <div>
+                    <h3 class="item-title">Nutribites Recipe Application</h3>
+                    <p class="item-subtitle">React, JavaScript, API Integration</p>
+                </div>
+                <span class="item-date">2025</span>
+            </div>
+            <ul class="item-list">
+                <li>Developed a full-featured recipe application using React with search and filtering capabilities</li>
+                <li>Integrated TheMealDB API to fetch and display dynamic recipe data</li>
+                <li>Implemented dietary filtering system (Heart-Healthy, Diabetic-Friendly, Weight Management)</li>
+                <li>Created responsive design ensuring seamless experience across mobile, tablet, and desktop devices</li>
+                <li>Utilized React Hooks (useState, useEffect) for state management and side effects</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="item-header">
+                <div>
+                    <h3 class="item-title">Recipe Finder (Vanilla JavaScript)</h3>
+                    <p class="item-subtitle">HTML5, CSS3, JavaScript, REST API</p>
+                </div>
+                <span class="item-date">2025</span>
+            </div>
+            <ul class="item-list">
+                <li>Built a recipe search application using vanilla JavaScript without frameworks</li>
+                <li>Implemented advanced DOM manipulation for dynamic content rendering</li>
+                <li>Designed and developed filtering system with 25 recipes across 5 categories</li>
+                <li>Created smooth scrolling functionality and back-to-top navigation feature</li>
+                <li>Ensured mobile-first responsive design with CSS Grid and media queries</li>
+            </ul>
+        </div>
+            
+
+        <div class="project-item">
+            <div class="item-header">
+                <div>
+                    <h3 class="item-title">Banking Landing Page</h3>
+                    <p class="item-subtitle">HTML5, CSS3, JavaScript</p>
+                </div>
+                <span class="item-date">2024</span>
+            </div>
+            <ul class="item-list">
+                <li>Created modern, professional landing page with smooth animations</li>
+                <li>Implemented responsive navigation menu with mobile hamburger menu</li>
+                <li>Developed contact form with client-side validation</li>
+                <li>Ensured cross-browser compatibility and accessibility standards</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cv-section">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="cv-section">
+        <div class="section-title">EDUCATION</div>
+        <div class="item">
+            <div class="item-header">Front-End Web Development</div>
+            <div class="item-subheader">Training Institution Name | 2024 - 2025</div>
+            <p>Comprehensive 3-month program covering HTML5, CSS3, JavaScript, React, and API integration</p>
+        </div>
+        <div class="item">
+            <div class="item-header">Bachelor of Science</div>
+            <div class="item-subheader">University Name | Year - Year</div>
+        </div>
+    </div>
+
+    <div class="cv-section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+            <div class="cert-item">
+                <p class="cert-name">Front-End Development Certificate</p>
+                <p class="cert-issuer">Cirvee Academy | 2025</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="cv-section">
+        <h2 class="section-title">Additional Information</h2>
+        <ul class="item-list">
+            <li><strong>Languages:</strong> English (Fluent)</li>
+            <li><strong>Tools & Technologies:</strong> VS Code, Git, GitHub, Chrome DevTools, Figma</li>
+            <li><strong>Soft Skills:</strong> Problem Solving, Attention to Detail, Time Management, Self-Learning, Team Collaboration</li>
+            <li><strong>Availability:</strong> Immediately available for full-time or freelance opportunities</li>
+        </ul>
+    </div>
+</body>
+</html>

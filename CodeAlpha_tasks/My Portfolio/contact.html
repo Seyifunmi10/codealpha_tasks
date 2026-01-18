@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">SULE OLUWASEYI</a>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">HOME</a>
+                <a href="about.html" class="nav-link">ABOUT</a>
+                <a href="projects.html" class="nav-link">PROJECTS</a>
+                <a href="contact.html" class="nav-link active">CONTACT</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-content contact-page">
+        <div class="container-small">
+            <div class="page-header">
+                <h2 class="page-title">Contact</h2>
+                <div class="title-line"></div>
+                <p class="page-description">
+                    I am currently available for freelance work and open to discussing new opportunities
+                </p>
+            </div>
+
+            <div class="contact-info-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3 class="contact-heading">Email Address</h3>
+                    <p class="contact-text">oluwaseyimariam36@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3 class="contact-heading">Phone Number</h3>
+                    <p class="contact-text">+234 70 7880 4143</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <h3 class="contact-heading">LinkedIn</h3>
+                    <p class="contact-text">linkedin.com/in/oluwaseyi-sule-0a9574211</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🐙</div>
+                    <h3 class="contact-heading">GitHub</h3>
+                    <p class="contact-text">github.com/Seyifunmi10</p>
+                </div>
+            </div>
+
+            <div class="contact-form-section">
+                <h3 class="form-title">Send a Message</h3>
+                <form class="contact-form" action="https://formsubmit.co/oluwaseyimariam36@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://yourwebsite.com/contact.html">
+                    <input type="hidden" name="_subject" value="New Portfolio Contact!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name" class="form-input" required>
+                        <input type="email" placeholder="Email Address" class="form-input" required>
+                    </div>
+                    <input type="text" placeholder="Subject" class="form-input-full" required>
+                    <textarea placeholder="Your Message" rows="7" class="form-textarea" required></textarea>
+                    <button type="submit" class="btn-primary btn-full">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <button class="back-to-top" id="backToTop">⬆</button>
+
+    <footer class="footer">
+    <p>© 2025 Sule Oluwaseyi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
